@@ -20,9 +20,9 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnIC
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
 global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "242064903068";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
+global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
@@ -33,8 +33,8 @@ global.waPresence = process.env.WAPRESENCE || " ";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
-global.save_status = process.env.AUTO_SAVE_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.save_status = process.env.AUTO_SAVE_STATUS || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
@@ -43,17 +43,17 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK01XZkF2cHBJRHFEekIxOVc3aDJicU1KaWxVa3BWbG50cUxiZkVyVVZHdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOXk1ZUpNd2ZyN2xMWEM0RDRrbE1HenZ0aTZZS1JmRXhTYmxEYzRGaE5RRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHTWdzMjIxV2c4R2NHalFXRmVaeWxQRWFlaHNER3J3Vlc0L0ExNGg1TGxVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLOTA0ejNoTDZsaTdvVFgwdU9QUy9pVUk1UDBnZmNmZGN0YTdnQk9QMFFJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVLbXNFOVFENDZWZUduRE0yZVVsYThBeDkzZzJUenRMNzc0SmJPanJYMVE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZneXhlamlEUVdaZHNjMUdsZUptK2hnM3dBc3VhNVhiajNJb29BNkIxSFk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaU8yYmNyakZicndwSkYrNU5JWE1ZUHBsZzZrK1pNNUV2RDlucUNoS08waz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSXRSMHZQOEpFMVpYdkp0ZVRhenJkMVdHV05VVzdTRjl4aTc0ZWdmcklUST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxkcStqVzQwMVBqQUhDN056WE1KNi9iRW9lYVRnZ0wrMmtpUVNEWmZ6L2VJVmg4c1pkMGhaRWg5d2ZZOVRzTXlUZDlqRzB2M01EbFRWalh0eVpBYml3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTQ0LCJhZHZTZWNyZXRLZXkiOiJuc1VPczlvZVk2MmNRUnFWNlVlQkZFN3JFY1JjT2E4NVEwNXcwM3ZuVDNjPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6ZmFsc2UsImFjY291bnQiOnsiZGV0YWlscyI6IkNOcjJqdFVFRU5qNDNjRUdHQVlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJKSE00NzltZ3ROWDgrK3dTWVlwaDhxN1lPNnZZSXZ0QWdIRy93MnhLNjFjPSIsImFjY291bnRTaWduYXR1cmUiOiJxTklZcm92SE95MFFJSm9zOEFlVUtzbmlBYUtDVnJkekhKb281ZncydjdUVmhrRE9tNHpqVDFzRXM3VHpLNnJLc2pyaVRweVFNd1FxSjN2c2FTTG5DUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiZGJWUWFMU0xkbmdWR1dpcEpoeUhPZTd3N3hPRVhYMnZ5Tzd6TTIxWEx1N1ZERjdwV3JFUnZtRE00WUhQZWdTM1VVeVowSFNtRWpYbFY0b3ZMdnBMaFE9PSJ9LCJtZSI6eyJpZCI6IjI0MjA2NDkwMzA2ODoxNUBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjE0Nzc2ODY2ODYxODg0NToxNUBsaWQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjQyMDY0OTAzMDY4OjE1QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlNSek9PL1pvTFRWL1B2c0VtR0tZZkt1MkR1cjJDTDdRSUJ4djhOc1N1dFgifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBSUlFZz09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc0ODQ2Njc5MCwibGFzdFByb3BIYXNoIjoiMkc0QW11IiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFOTXIifQ=="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF 𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨`",
-  author: process.env.PACK_AUTHER || " 𝙎-𝙏𝞢𝞜",
-  packname: process.env.PACK_NAME || "𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨",
+  author: process.env.PACK_AUTHER || " 𓊈𖤇❮𝑺𝑨𝑷𝑯𝒀𓊉 𐂂𐂂❥⃝𝑮𝑼𝑪𝑯𝒀𐂂❥⃝",
+  packname: process.env.PACK_NAME || "𓊈𖤇❮𝑺𝑨𝑷𝑯𝒀𓊉 𐂂𐂂❥⃝𝑮𝑼𝑪𝑯𝒀𐂂❥⃝",
   botname: process.env.BOT_NAME || "ST┘𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨𖤐",
-  ownername: process.env.OWNER_NAME || "🌹⃟⃢👑 ĐÆ𝚪𝐊༒𝙎-𝙏𝞢𝞜🌹⃟⃢👑",
+  ownername: process.env.OWNER_NAME || "𓊈𖤇❮𝑺𝑨𝑷𝑯𝒀𓊉 𐂂𐂂❥⃝𝑮𝑼𝑪𝑯𝒀𐂂❥⃝",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "tCxobE1FqJgfbDZgsYQNHBFB",
